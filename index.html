@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Alejandro Gomez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house fa-lg"
+                                    style="color: whitesmoke;"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/aboutme.html">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselConocimientos" class="carousel slide bg-dark" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselConocimientos" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselConocimientos" data-bs-slide-to="1" aria-current="true"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselConocimientos" data-bs-slide-to="2" aria-current="true"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselConocimientos" data-bs-slide-to="3" aria-current="true"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/170862230/original/0e28e7960f2899c803bffab17a81ec4ea4a8c563/develop-front-end-websites-in-html-css-bootstrap-and-javascript.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://www.qualitydevs.com/wp-content/uploads/2021/05/PHP-Quality-Devs-1-1288x724.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://www.softzone.es/app/uploads-softzone.es/2020/09/Programar-Java.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/difference_between_sql_and_mysql.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fourth slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselConocimientos"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselConocimientos"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div>
+            <div style="color: whitesmoke; text-align: center;">
+                <h1><br>Some Proyects<br></h1>
+            </div>
+            <div class="card-group text-center">
+                <div class="card border-light mb-3 bg-dark"
+                    style="color: whitesmoke; margin: 1rem; border: 1px solid whitesmoke;">
+                    <img src="https://blogs.elpais.com/.a/6a00d8341bfb1653ef019b01787769970c-pi" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card border-light mb-3 bg-dark"
+                    style="color: whitesmoke; margin: 1rem; border: 1px solid whitesmoke;">
+                    <img src="https://blogs.elpais.com/.a/6a00d8341bfb1653ef019b01787769970c-pi" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card border-light mb-3 bg-dark"
+                    style="color: whitesmoke; margin: 1rem; border: 1px solid whitesmoke;">
+                    <img src="https://blogs.elpais.com/.a/6a00d8341bfb1653ef019b01787769970c-pi" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sobre-mi" class="container">
+            <div class="imageninfor">
+                <div class="info">
+                    <p class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, explicabo commodi. Fugiat
+                        eaque voluptates eligendi veritatis molestias, id aspernatur ipsum vero unde sapiente
+                        consectetur commodi nulla illum! Explicabo, ea dignissimos.
+                        Nam aut vel, ad ex facere soluta dolorem dicta quam iusto deserunt blanditiis ratione beatae
+                        accusantium repellat veniam, quia pariatur architecto, delectus sit voluptates! Expedita
+                        delectus eum ex nam non!
+                        Vitae rerum dignissimos aspernatur. Sed commodi ipsam esse similique tempora doloremque
+                        eaque
+                        vitae explicabo velit ratione mollitia quam eligendi beatae, dicta sit culpa autem magnam
+                        reiciendis ea dolores, vel obcaecati!
+                        Magni accusamus distinctio voluptatem veniam eaque obcaecati error porro provident a
+                        deleniti
+                        repellendus unde nesciunt iusto eum aut, beatae maxime nam. Quia vel, ea distinctio eum
+                        consectetur sint id sit.
+                        Quaerat quasi quidem ullam nisi similique, nesciunt architecto at consectetur illum,
+                        temporibus
+                        possimus delectus nam dolorem debitis? Magnam, reiciendis molestiae? Commodi labore, quidem
+                        magnam praesentium doloribus enim laboriosam nam beatae?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer bg-dark">
+        <br>
+        <br>
+        <div class="redes-sociales">
+            <i class="fa-brands fa-instagram" style="color: #a8e2f5;"></i>
+            <i class="fa-brands fa-facebook" style="color: #a8e2f5;"></i>
+            <i class="fa-brands fa-github" style="color: #a8e2f5;"></i>
+            <i class="fa-brands fa-twitter" style="color: #a8e2f5;"></i>
+        </div>
+        <div style="color:whitesmoke;">
+            <div class="telefono">
+                <p>+34 619 543 649</p>
+            </div>
+            <div class="curriculum">
+                <p>CV - Alejandro</p>
+            </div>
+            <div class="correo">
+                <p type="email">Ag426969@gmail.com</p>
+            </div>
+        </div>
+        <br>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dda3e67957.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
