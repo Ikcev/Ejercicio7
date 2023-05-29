@@ -1,10 +1,11 @@
-#carouselConocimientos .carousel-item img{
+#carouselConocimientos .carousel-item img {
     object-fit: cover;
     width: 100%;
     height: 100vh;
     opacity: 0.7;
- }
- #sobre-mi {
+}
+
+#sobre-mi {
     margin-top: 20vh;
     width: 100%;
     height: auto;
@@ -35,14 +36,18 @@
     margin-left: 30px;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px){
-    .info p{
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .info p {
         font-size: 14px;
-    };
+    }
+
+    ;
 }
 
-@media (max-width: 576px){
-    .info p{
+@media (max-width: 576px) {
+    .info p {
         font-size: 12px;
-    };
+    }
+
+    ;
 }

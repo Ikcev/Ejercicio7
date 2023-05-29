@@ -1,0 +1,16 @@
+.redes-sociales {
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+}
+
+.telefono {
+    margin: auto;
+}
+
+.correo {
+    margin: auto;
+}
