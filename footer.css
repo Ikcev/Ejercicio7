@@ -2,12 +2,21 @@
     text-align: center;
 }
 
+.curriculum{
+    width: 100%;
+    display: flex;
+}
+
+.curriculum p{
+    margin: auto;
+}
+
 .contact {
     width: 100%;
     display: flex;
 }
 
-.telefono {
+.telefono{
     margin: auto;
 }
 
