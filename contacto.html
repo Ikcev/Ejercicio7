@@ -49,26 +49,35 @@
     </header>
 
     <main>
-        <div class="invitacion" style="text-align: center;">
-            <h1>Contactame</h1>
+        <div class="invitacion">
+            <h1 style="text-align: center;">Contactame</h1>
             <p>Estaré encantado de recibir tu información mediante este formulario o escribe directamente a mi correo
                 electronico <b>ag426969@gmail.com</b></p>
         </div>
         <div>
             <form action="">
-                <div class="mb-3">
-                    <label for="ingresaNombreApellido" class="form-label">Nombre y Apellidos</label>
-                    <input type="text" class="form-control" id="ingresaNombreApellido" placeholder="John Doe">
+                <div class="row-9">
+                    <div class="col-7 col-sm-6 col-md-5">
+                        <div class="mb-3">
+                            <label for="ingresaNombreApellido" class="form-label">Nombre y Apellidos</label>
+                            <input type="text" class="form-control" id="ingresaNombreApellido" placeholder="John Doe">
+                        </div>
+                    </div>
+                    <div class="col-7 col-sm-6 col-md-5">
+                        <div class="mb-3">
+                            <label for="ingresaEmail" class="form-label">Dirección de Correo Electrónico</label>
+                            <input type="email" class="form-control" id="ingresaEmail"
+                                placeholder="JohnDoe@ejemplo.com">
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="mb-3">
+                            <label for="descripción" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="descripción" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline-light boton" type="submit" style="color: whitesmoke;">Enviar</button>
                 </div>
-                <div class="mb-3">
-                    <label for="ingresaEmail" class="form-label">Dirección de Correo Electrónico</label>
-                    <input type="email" class="form-control" id="ingresaEmail" placeholder="JohnDoe@ejemplo.com">
-                </div>
-                <div class="mb-3">
-                    <label for="descripción" class="form-label">Descripción</label>
-                    <textarea class="form-control" id="descripción" rows="7"></textarea>
-                </div>
-                <button class="btn btn-outline-light boton" type="submit" style="color: whitesmoke;">Enviar</button>
             </form>
         </div>
     </main>
