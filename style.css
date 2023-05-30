@@ -51,17 +51,3 @@
 
     ;
 }
-
-/*ABOUTME*/
-
-.yo{
-    color: whitesmoke;
-}
-
-.yo h1{
-    text-align: center;
-}
-
-.yo h2,p{
-    text-align: justify;
-}
