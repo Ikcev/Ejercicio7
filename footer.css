@@ -7,8 +7,11 @@
     display: flex;
 }
 
-.curriculum p{
+.curriculum a{
     margin: auto;
+    text-decoration: none;
+    color: whitesmoke !important;
+    font-weight: bold;
 }
 
 .contact {
