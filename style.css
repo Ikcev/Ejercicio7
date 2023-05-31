@@ -40,8 +40,6 @@
     .info p {
         font-size: 14px;
     }
-
-    ;
 }
 
 @media (max-width: 576px) {
@@ -49,5 +47,7 @@
         font-size: 12px;
     }
 
-    ;
+    .imageninfor {
+        height: 1000px;
+    }
 }
