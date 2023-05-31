@@ -1,12 +1,43 @@
 /*ABOUTME*/
 .yo{
-    color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    background: url(https://grados.uemc.es/hubfs/Blog/Im%C3%A1genes/ingenieria-informatica-asignaturas-salidas-profesionales-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
 }
 
-.yo h1{
+.yo-info{
+    color: BLACK;
+    width: 80%;
+    margin: auto;
+    background: #fafafa9c;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.yo-info h1{
     text-align: center;
 }
 
-.yo h2,p{
+.yo-info p{
     text-align: justify;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .yo-info p {
+        font-size: 14px;
+    }
+
+    ;
+}
+
+@media (max-width: 576px) {
+    .yo-info p {
+        font-size: 12px;
+    }
+
+    ;
 }
