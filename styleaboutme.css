@@ -10,7 +10,7 @@
 
 .yo-info{
     color: BLACK;
-    width: 100%;
+    width: 80%;
     margin: auto;
     background: #fafafa9c;
     display: flex;
@@ -29,6 +29,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     .yo-info p {
         font-size: 14px;
+        
     }
 
     ;
